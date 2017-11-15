@@ -1,0 +1,24 @@
+{
+  "name": "geniv/nette-minified",
+  "description": "Minified version of Nette Framework",
+  "keywords": [
+    "nette",
+    "minified",
+    "geniv"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Radek Fryšták",
+      "email": "geniv.radek@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
