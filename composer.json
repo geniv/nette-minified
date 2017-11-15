@@ -17,8 +17,8 @@
     "php": ">=5.6.0"
   },
   "autoload": {
-    "classmap": [
-      ""
+    "files": [
+      "nette.phar"
     ]
   }
 }
