@@ -6,11 +6,11 @@ Installation
 ------------
 
 ```sh
-$ composer require geniv/nette-authorizator
+$ composer require geniv/nette-minified
 ```
 or
 ```json
-"geniv/nette-authorizator": ">=1.0.0"
+"geniv/nette-minified": ">=1.0.0"
 ```
 
 require:
@@ -38,10 +38,8 @@ Debugger::enable(null, __DIR__ . '/log');
 
 try {
 
-
     // pokusny text
     echo Html::el('strong')->setText('It works!');
-
 
 } catch (Exception $e) {
     Debugger::log($e);  // log exception
